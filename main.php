@@ -8,7 +8,7 @@ require 'src/SentimentAnalyzer.php';
 require 'src/TemporalAnalyzer.php';
 require 'src/KnowledgeGraphBuilder.php';
 
-$filePaths = ['data/doc2.txt']; // List of your data files
+$filePaths = ['data/doc1.txt']; // List of your data files
 
 // Read documents
 $documents = DocumentReader::readDocuments($filePaths);

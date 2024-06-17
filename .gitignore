@@ -1,4 +1,3 @@
 vendor/
 .DS_Store
-output/knowledge_graph.jsonld
 .env

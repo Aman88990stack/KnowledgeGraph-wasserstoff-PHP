@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "entity": "http://example.org/entity",
+        "type": "http://example.org/type",
+        "relationship": "http://example.org/relationship",
+        "sentiment": "http://example.org/sentiment",
+        "temporal": "http://example.org/temporal"
+    },
+    "@graph": [
+        {
+            "@id": "entity:ExampleCorp",
+            "type": [
+                "Company"
+            ],
+            "confidenceScore": 0.5
+        },
+        {
+            "@id": "entity:Jane Smith",
+            "type": [
+                "Person"
+            ],
+            "confidenceScore": 0.5
+        },
+        {
+            "@id": "entity:CTO",
+            "type": [
+                "Place"
+            ],
+            "confidenceScore": 0.5
+        },
+        {
+            "@id": "entity:John Doe",
+            "type": [],
+            "confidenceScore": 1.24
+        },
+        {
+            "@id": "entity:2024-04-05T00:00:00.000+00:00",
+            "type": [
+                "Time"
+            ],
+            "confidenceScore": 0.5
+        },
+        {
+            "@id": "entity:New York (state)",
+            "type": [
+                "Place",
+                "PopulatedPlace",
+                "Region",
+                "AdministrativeRegion"
+            ],
+            "confidenceScore": 1.629
+        },
+        {
+            "@id": "entity:Positive feedback",
+            "type": [],
+            "confidenceScore": 1.822
+        },
+        {
+            "@id": "entity:Feedback",
+            "type": [],
+            "confidenceScore": 5.005
+        },
+        {
+            "@id": "entity:2024-01-01T00:00:00.000+00:00",
+            "type": [
+                "Time"
+            ],
+            "confidenceScore": 0.5
+        }
+    ]
+}
